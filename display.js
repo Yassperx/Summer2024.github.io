@@ -1,5 +1,5 @@
 const dataError = "No data found";
-const max_page_number = [314, 328, 139, 357, 217, 296, 351, 83, 7, 1393, 2366 , 1079, 758];
+const max_page_number = [314, 328, 139, 357, 217, 296, 351, 83, 7, 2366, 1079 , 576];
 
 document.addEventListener('DOMContentLoaded', function () {
   const savedData = localStorage.getItem('userData');
@@ -35,7 +35,6 @@ document.addEventListener('DOMContentLoaded', function () {
     document.getElementById('A10').innerText = userData.Books[9];  
     document.getElementById('A11').innerText = userData.Books[10];  
     document.getElementById('A12').innerText = userData.Books[11];  
-    document.getElementById('A13').innerText = userData.Books[12]; 
     
     document.getElementById('B1').childNodes[1].innerText = `/${max_page_number[0]}`;
     document.getElementById('B2').childNodes[1].innerText = `/${max_page_number[1]}`;
@@ -45,10 +44,9 @@ document.addEventListener('DOMContentLoaded', function () {
     document.getElementById('B6').childNodes[1].innerText = `/${max_page_number[5]}`;
     document.getElementById('B7').childNodes[1].innerText = `/${max_page_number[6]}`;
     document.getElementById('B8').childNodes[1].innerText = `/${max_page_number[7]}`;
-    document.getElementById('B10').childNodes[1].innerText = `/${max_page_number[9]}`;
-    document.getElementById('B11').childNodes[1].innerText = `/${max_page_number[10]}`;
-    document.getElementById('B12').childNodes[1].innerText = `/${max_page_number[11]}`;
-    document.getElementById('B13').childNodes[1].innerText = `/${max_page_number[12]}`;
+    document.getElementById('B9').childNodes[1].innerText = `/${max_page_number[9]}`;
+    document.getElementById('B10').childNodes[1].innerText = `/${max_page_number[10]}`;
+    document.getElementById('B11').childNodes[1].innerText = `/${max_page_number[11]}`;
 
   } else {
     console.log(dataError);

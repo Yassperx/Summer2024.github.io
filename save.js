@@ -11,8 +11,9 @@ document.addEventListener('DOMContentLoaded', function () {
     "Usaco_grade" : "Bronze",
     "Usaco_grade_color" : "#422900",
     "Books" : [
-      "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0",
-    ]
+      "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0"
+    ],
+    "max_page_number" : ["314", "328", "139", "357", "217", "296", "351", "83", "7", "2366", "1079" , "576"]
   };
 
   const loadData = () => {
@@ -49,7 +50,6 @@ document.addEventListener('DOMContentLoaded', function () {
   document.getElementById('Book_9').value = userData.Books[9];
   document.getElementById('Book_10').value = userData.Books[10];
   document.getElementById('Book_11').value = userData.Books[11];
-  document.getElementById('Book_12').value = userData.Books[12];
 
   saveButton.addEventListener('click', function () {
     // Mathstraining
@@ -79,7 +79,6 @@ document.addEventListener('DOMContentLoaded', function () {
     userData.Books[9] = document.getElementById('Book_9').value;
     userData.Books[10] = document.getElementById('Book_10').value;
     userData.Books[11] = document.getElementById('Book_11').value;
-    userData.Books[12] = document.getElementById('Book_12').value;
 
     localStorage.setItem('userData', JSON.stringify(userData));
 
