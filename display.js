@@ -1,5 +1,5 @@
 const dataError = "No data found";
-const max_page_number = [314, 328, 139, 357, 217, 296, 351, 83, 7, 2366, 1079 , 576];
+const max_page_number = [314, 328, 139, 357, 217, 296, 351, 83, 7, 2366, 1079 , 576, 461];
 
 document.addEventListener('DOMContentLoaded', function () {
   const savedData = localStorage.getItem('userData');
@@ -28,6 +28,7 @@ document.addEventListener('DOMContentLoaded', function () {
     document.getElementById('A3').innerText = userData.Books[2];  
     document.getElementById('A4').innerText = userData.Books[3];  
     document.getElementById('A5').innerText = userData.Books[4];  
+    document.getElementById('A5.5').innerText = userData.Books[12];  
     document.getElementById('A6').innerText = userData.Books[5];  
     document.getElementById('A7').innerText = userData.Books[6];  
     document.getElementById('A8').innerText = userData.Books[7];  
@@ -41,6 +42,7 @@ document.addEventListener('DOMContentLoaded', function () {
     document.getElementById('B3').childNodes[1].innerText = `/${max_page_number[2]}`;
     document.getElementById('B4').childNodes[1].innerText = `/${max_page_number[3]}`;
     document.getElementById('B5').childNodes[1].innerText = `/${max_page_number[4]}`;
+    document.getElementById('B5.5').childNodes[1].innerText = `/${max_page_number[12]}`;
     document.getElementById('B6').childNodes[1].innerText = `/${max_page_number[5]}`;
     document.getElementById('B7').childNodes[1].innerText = `/${max_page_number[6]}`;
     document.getElementById('B8').childNodes[1].innerText = `/${max_page_number[7]}`;

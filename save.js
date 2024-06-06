@@ -1,20 +1,44 @@
 document.addEventListener('DOMContentLoaded', function () {
   const saveButton = document.querySelector('.btn');
 
-  const Default_Data = { 
-    "Mathraining_points" : "1419",
-    "Mathraining_role" : "Expérimenté",
-    "Mathraining_role_color" : "#DD77FF",
-    "Codeforces_elo" : "925",
-    "Codeforces_role" : "Newbie",
-    "Codeforces_role_color" : "#808080",
-    "Usaco_grade" : "Bronze",
-    "Usaco_grade_color" : "#422900",
-    "Books" : [
-      "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0"
+  const Default_Data = {
+    "Mathraining_points": "1449",
+    "Mathraining_role": "Expérimenté",
+    "Mathraining_role_color": "#dd77ff",
+    "Codeforces_elo": "925",
+    "Codeforces_role": "Newbie",
+    "Codeforces_role_color": "#808080",
+    "Usaco_grade": "Bronze",
+    "Usaco_grade_color": "#422900",
+    "Books": [
+        "36",
+        "26",
+        "0",
+        "0",
+        "13",
+        "0",
+        "0",
+        "0",
+        "7",
+        "23",
+        "0",
+        "0"
     ],
-    "max_page_number" : ["314", "328", "139", "357", "217", "296", "351", "83", "7", "2366", "1079" , "576"]
-  };
+    "max_page_number": [
+        "314",
+        "328",
+        "139",
+        "357",
+        "217",
+        "296",
+        "351",
+        "83",
+        "7",
+        "2366",
+        "1079",
+        "576"
+    ]
+}
 
   const loadData = () => {
     const savedData = localStorage.getItem('userData');
@@ -44,6 +68,7 @@ document.addEventListener('DOMContentLoaded', function () {
   document.getElementById('Book_3').value = userData.Books[3];
   document.getElementById('Book_4').value = userData.Books[4];
   document.getElementById('Book_5').value = userData.Books[5];
+  document.getElementById('Book_5.5').value = userData.Books[12];
   document.getElementById('Book_6').value = userData.Books[6];
   document.getElementById('Book_7').value = userData.Books[7];
   document.getElementById('Book_8').value = userData.Books[8];
@@ -73,6 +98,7 @@ document.addEventListener('DOMContentLoaded', function () {
     userData.Books[3] = document.getElementById('Book_3').value;
     userData.Books[4] = document.getElementById('Book_4').value;
     userData.Books[5] = document.getElementById('Book_5').value;
+    userData.Books[12] = document.getElementById('Book_5.5').value;
     userData.Books[6] = document.getElementById('Book_6').value;
     userData.Books[7] = document.getElementById('Book_7').value;
     userData.Books[8] = document.getElementById('Book_8').value;
