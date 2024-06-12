@@ -2,41 +2,41 @@ document.addEventListener('DOMContentLoaded', function () {
   const saveButton = document.querySelector('.btn');
 
   const Default_Data = {
-    "Mathraining_points": "1449",
+    "Mathraining_points": "1551",
     "Mathraining_role": "Expérimenté",
     "Mathraining_role_color": "#dd77ff",
-    "Codeforces_elo": "925",
+    "Codeforces_elo": "857",
     "Codeforces_role": "Newbie",
     "Codeforces_role_color": "#808080",
     "Usaco_grade": "Bronze",
     "Usaco_grade_color": "#422900",
     "Books": [
-        "36",
-        "26",
-        "0",
-        "0",
-        "13",
         "0",
         "0",
         "0",
-        "7",
-        "23",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
         "0",
         "0"
-    ],
+      ],
     "max_page_number": [
-        "314",
-        "328",
-        "139",
-        "357",
-        "217",
-        "296",
-        "351",
-        "83",
-        "7",
-        "2366",
-        "1079",
-        "576"
+     " 314"," 328", "139", "357", "217", "461", "572", "825", "26"," 32", "184" ," 296", "351", "83", "2366"," 1079", "576", "34", "120", "128"
     ]
 }
 
@@ -62,19 +62,27 @@ document.addEventListener('DOMContentLoaded', function () {
   document.getElementById('usaco_grade_color').value = userData.Usaco_grade_color;
 
   // Books
-  document.getElementById('Book_0').value = userData.Books[0];
-  document.getElementById('Book_1').value = userData.Books[1];
-  document.getElementById('Book_2').value = userData.Books[2];
-  document.getElementById('Book_3').value = userData.Books[3];
-  document.getElementById('Book_4').value = userData.Books[4];
-  document.getElementById('Book_5').value = userData.Books[5];
-  document.getElementById('Book_5.5').value = userData.Books[12];
-  document.getElementById('Book_6').value = userData.Books[6];
-  document.getElementById('Book_7').value = userData.Books[7];
-  document.getElementById('Book_8').value = userData.Books[8];
-  document.getElementById('Book_9').value = userData.Books[9];
-  document.getElementById('Book_10').value = userData.Books[10];
-  document.getElementById('Book_11').value = userData.Books[11];
+  document.getElementById('Book_1').value = userData.Books[0];
+  document.getElementById('Book_2').value = userData.Books[1];
+  document.getElementById('Book_3').value = userData.Books[2];
+  document.getElementById('Book_4').value = userData.Books[3];
+  document.getElementById('Book_5').value = userData.Books[4];
+  document.getElementById('Book_6').value = userData.Books[5];
+  document.getElementById('Book_7').value = userData.Books[6];
+  document.getElementById('Book_8').value = userData.Books[7];
+  document.getElementById('Book_9').value = userData.Books[8];
+  document.getElementById('Book_10').value = userData.Books[9];
+  document.getElementById('Book_11').value = userData.Books[10];
+  document.getElementById('Book_12').value = userData.Books[11];
+  document.getElementById('Book_13').value = userData.Books[12];
+  document.getElementById('Book_14').value = userData.Books[13];
+  document.getElementById('Book_15').value = userData.Books[14];
+  document.getElementById('Book_16').value = userData.Books[15];
+  document.getElementById('Book_17').value = userData.Books[16];
+  document.getElementById('Book_18').value = userData.Books[17];
+  document.getElementById('Book_19').value = userData.Books[18];
+  document.getElementById('Book_20').value = userData.Books[19];
+  document.getElementById('Book_21').value = userData.Books[20];
 
   saveButton.addEventListener('click', function () {
     // Mathstraining
@@ -92,19 +100,27 @@ document.addEventListener('DOMContentLoaded', function () {
     userData.Usaco_grade_color = document.getElementById('usaco_grade_color').value;
 
     // Books 
-    userData.Books[0] = document.getElementById('Book_0').value;
-    userData.Books[1] = document.getElementById('Book_1').value;
-    userData.Books[2] = document.getElementById('Book_2').value;
-    userData.Books[3] = document.getElementById('Book_3').value;
-    userData.Books[4] = document.getElementById('Book_4').value;
-    userData.Books[5] = document.getElementById('Book_5').value;
-    userData.Books[12] = document.getElementById('Book_5.5').value;
-    userData.Books[6] = document.getElementById('Book_6').value;
-    userData.Books[7] = document.getElementById('Book_7').value;
-    userData.Books[8] = document.getElementById('Book_8').value;
-    userData.Books[9] = document.getElementById('Book_9').value;
-    userData.Books[10] = document.getElementById('Book_10').value;
-    userData.Books[11] = document.getElementById('Book_11').value;
+    userData.Books[0] = document.getElementById('Book_1').value;
+    userData.Books[1] = document.getElementById('Book_2').value;
+    userData.Books[2] = document.getElementById('Book_3').value;
+    userData.Books[3] = document.getElementById('Book_4').value;
+    userData.Books[4] = document.getElementById('Book_5').value;
+    userData.Books[5] = document.getElementById('Book_6').value;
+    userData.Books[6] = document.getElementById('Book_7').value;
+    userData.Books[7] = document.getElementById('Book_8').value;
+    userData.Books[8] = document.getElementById('Book_9').value;
+    userData.Books[9] = document.getElementById('Book_10').value;
+    userData.Books[10] = document.getElementById('Book_11').value;
+    userData.Books[11] = document.getElementById('Book_12').value;
+    userData.Books[12] = document.getElementById('Book_13').value;
+    userData.Books[13] = document.getElementById('Book_14').value;
+    userData.Books[14] = document.getElementById('Book_15').value;
+    userData.Books[15] = document.getElementById('Book_16').value;
+    userData.Books[16] = document.getElementById('Book_17').value;
+    userData.Books[17] = document.getElementById('Book_18').value;
+    userData.Books[18] = document.getElementById('Book_19').value;
+    userData.Books[19] = document.getElementById('Book_20').value;
+    userData.Books[20] = document.getElementById('Book_21').value;
 
     localStorage.setItem('userData', JSON.stringify(userData));
 
