@@ -1,0 +1,142 @@
+# .
+[]    Combinatorics.pdf
+[]    EvanChen.pdf
+[]    Functional Equations and How To Solve Them.pdf
+[]    Inequalities.pdf
+[]    IntroductoryCombinatorics.pdf
+[]    Modern_NT.pdf
+[]    the-imo-compendium-1959_2009.pdf
+[]    zhao-polynomials.pdf
+# MorrocanTests
+[]    TST_2005.pdf
+[]    TST_2010.pdf
+[]    TST_2011.pdf
+[]    TST_2012.pdf
+[]    TST_2017.pdf
+[]    TST_2018.pdf
+[]    morrocan_nationnal_olympaid_2005.pdf
+[]    morrocan_nationnal_olympaid_2011.pdf
+# POFM
+[]    arith_base.pdf
+[]    arith_base_solutions.pdf
+[]    geom_base.pdf
+[]    polynomes.pdf
+[]    strat_base_1.pdf
+[]    Polynomials.pdf
+[]    Problems from the Book.pdf
+# Programme Scolaire
+[]    Livret-1ere-Term.pdf
+[]    Livret-2nde-1ere.pdf
+[]    MP2I.pdf.crdownload
+[]    Transition_CPGE.pdf
+# 100's
+[]    101-Algebra.pdf
+[]    102-Combinatorics.pdf
+[]    103-Trigonometry.pdf
+[]    104-NumberTheory.pdf
+[]    250-Geometry.pdf
+# 3SSILA
+[]    tome-1-algebre.pdf
+[]    tome-2-analyse.pdf
+[]    tome-3-combinatoire-I.pdf
+[]    tome-4-combinatoire-II.pdf
+[]    tome-5-arithmetique.pdf
+[]    tome-6-geometrie-I.pdf
+[]    tome-7-geometrie-II.pdf
+# Annales Animath
+    ## Automne
+        ### Corrigés
+[]            coupe_automne_2012_corrige.pdf
+[]            coupe_automne_2011_corrige.pdf
+[]            coupe_automne_2013_corrige.pdf
+[]            coupe_automne_2014_corrige.pdf
+[]            coupe_automne_2015_corrige.pdf
+[]            coupe_automne_2015_elim_college_corrige.pdf
+[]            coupe_automne_2015_elim_lycee_corrige.pdf
+[]            coupe_automne_2016_corrige.pdf
+[]            coupe_automne_2016_elim_corrige.pdf
+[]            coupe_automne_2017_corrige (1).pdf
+[]            coupe_automne_2017_corrige.pdf
+[]            coupe_automne_2017_elim_college.pdf
+[]            coupe_automne_2017_elim_lycee.pdf
+[]            coupe_automne_2018_corrige.pdf
+[]            coupe_automne_2019_corrige.pdf
+[]            coupe_automne_2020_corrige.pdf
+[]            coupe_automne_2021_corrige.pdf
+[]            coupe_automne_2022_corrige.pdf
+[]            coupe_automne_2023_corrige.pdf
+        ### Coupes
+[]            coupe_automne_2011.pdf
+[]            coupe_automne_2012.pdf
+[]            coupe_automne_2013.pdf
+[]            coupe_automne_2014.pdf
+[]            coupe_automne_2015.pdf
+[]            coupe_automne_2015_elim_lycee.pdf
+[]            coupe_automne_2016.pdf
+[]            coupe_automne_2016_elim.pdf
+[]            coupe_automne_2017.pdf
+[]            coupe_automne_2017_elim.pdf
+[]            coupe_automne_2018.pdf
+[]            coupe_automne_2019.pdf
+[]            coupe_automne_2020.pdf
+[]            coupe_automne_2021.pdf
+[]            coupe_automne_2022.pdf
+[]            coupe_automne_2023.pdf
+    ### Printemps
+        #### Corrigés
+[]            Corrigé-coupe-Animath-printemps.pdf
+[]            corrige-Coupe-Animath-Printemps-2023.pdf
+[]            corrigé-commenté-coupe-Animath-printemps-2022.pdf
+[]            corrigé-coupe-printemps-2020.pdf
+[]            coupe_animath_printemps_2019_corrige.pdf
+[]            coupe_printemps_2009_corrige.pdf
+[]            coupe_printemps_2010_corrige.pdf
+[]            coupe_printemps_2011_corrige.pdf
+[]            coupe_printemps_2012_corrige.pdf
+[]            coupe_printemps_2013_corrige.pdf
+[]            coupe_printemps_2014_corrige.pdf
+[]            coupe_printemps_2015_corrige.pdf
+[]            coupe_printemps_2016_corrige.pdf
+[]            coupe_printemps_2017_corrige.pdf
+[]            coupe_printemps_2018_corrige.pdf
+[]            coupe_printemps_2018_elim_college_corrige.pdf
+[]            coupe_printemps_2018_elim_lycee_corrige.pdf
+        #### Coupes
+            ###### collège
+[]                coupe_printemps_2009_3.pdf
+[]                coupe_printemps_2010_3.pdf
+[]                coupe_printemps_2011_3.pdf
+[]                coupe_printemps_2012_3.pdf
+[]                coupe_printemps_2013_3.pdf
+[]                coupe_printemps_2015_elim_college.pdf
+[]                coupe_printemps_2016_elim_college.pdf
+[]                coupe_printemps_2017_elim_college.pdf
+[]                coupe_printemps_2018_elim_college.pdf
+[]                coupe_animath_printemps_2019_elim.pdf
+[]                coupe_printemps_2015.pdf
+[]                coupe_printemps_2016.pdf
+[]                coupe_printemps_2017.pdf
+[]                coupe_printemps_2018.pdf
+[]                coupe_printemps_2019.pdf
+[]                coupe_printemps_2020.pdf
+[]                coupe_printemps_2021.pdf
+[]                coupe_printemps_2022.pdf
+[]                coupe_printemps_2022_t1.pdf
+[]                coupe_printemps_2023.pdf
+            ##### lycée
+[]                coupe_printemps_2015_elim_lycee.pdf
+[]                coupe_printemps_2016_elim_lycee.pdf
+[]                coupe_printemps_2017_elim_lycee.pdf
+[]                coupe_printemps_2018_elim_lycee.pdf
+
+                  ###### premières
+[]                    coupe_printemps_2009_1.pdf
+[]                    coupe_printemps_2010_1.pdf
+[]                    coupe_printemps_2011_1.pdf
+[]                    coupe_printemps_2012_1.pdf
+[]                    coupe_printemps_2013_1.pdf
+                  ###### secondes
+[]                    coupe_printemps_2010_2.pdf
+[]                    coupe_printemps_2011_2.pdf
+[]                    coupe_printemps_2012_2.pdf
+[]                    coupe_printemps_2013_2.pdf
