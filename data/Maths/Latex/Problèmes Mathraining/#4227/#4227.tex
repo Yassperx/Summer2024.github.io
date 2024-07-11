@@ -1,0 +1,30 @@
+\documentclass[12pt]{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{geometry}
+\usepackage{fancyhdr}
+\geometry{a4paper, margin=1in}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\textbf{Mathraining}}
+\fancyhead[R]{\small{9 juillet 2024}}
+
+\begin{document}
+
+\section*{Problème \#4227}
+
+La suite $(a_i)_{i \in \mathbb{N}}$ satisfait $a_{m+n} + a_{m-n} = \frac{1}{2}(a_{2m}+a_{2n})$ pour tous $m, n \in \mathbb{N}$ avec $m \geq n$. 
+Si $a_1 = 1$, déterminer les valeurs que peut prendre $a_{1995}$. \\
+
+On change la formule en : 
+$$2a_{m+n} + 2a_{m-n} = a_{2m} + a_ {2n}$$
+
+Pour $n=m$ : $$2a_{m} + 2a_{m} = a_{2m}  \iff \boxed{a_{2m} = 4a_{m}}$$
+
+Pour $n=0$, $n=1$ et $n=2$ :
+$$2a_{2m} + 2a_{0} = a_{2m} + a_{2m} \iff \boxed{a_0 = 0}$$
+$$2a_{m+1} + 2a_{1} = a_{2m} + a_{2} \iff 2a_{m+1} + 2 = 4a_{m} + 4a_1 \iff \boxed{a_{m+1} = 2a_{m} + 2}$$
+$$2a_{m+2} + 2a_{2} = a_{2m} + a_{4} \iff 2a_{m+2} + 8 = 4a_{m} + 4a_2 \iff \boxed{a_{m+2} = 2a_{m} + 8}$$
+$$\cdots$$
+
+\end{document}
